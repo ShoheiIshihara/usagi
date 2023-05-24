@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react'
 import { motion, AnimatePresence  } from 'framer-motion'
 
 import Link from 'next/link'
-
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 import NewsModal from '../components/NewsModal'
 
 
@@ -82,6 +83,8 @@ export default function News() {
       animate={{ opacity: 1 }} // マウント時
       exit={{ opacity: 0 }}    // アンマウント時
     >
+            <Header />
+
       <div className="font-notosans  relative h-full bg-[#182817] ">
         <div>
           <h2 className="pt-[150px] mb-[80px] text-center text-lg">お知らせ</h2>
@@ -106,6 +109,8 @@ export default function News() {
             
                 <NewsModal   setIsNewsOpen={setIsNewsOpen} selectContet={selectContet} />
             : ""}
+            <Footer />
+
       </motion.div>
     </>
 

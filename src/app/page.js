@@ -5,6 +5,8 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image';
 
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 
 export default function Home() {
@@ -55,6 +57,8 @@ export default function Home() {
         animate={{ opacity: 1 }} // マウント時
         exit={{ opacity: 0 }}    // アンマウント時
       >
+      <Header />
+
       <div className='font-notosans'>
         <div className=" z-0 relative bg-[url('/top/top001.jpg')] text-center bg-Cover h-[800px] bg-center">
           <div className='pt-[250px] absolute top-0 text-center leading-9 tracking-wider w-full h-full whitespace-normal px-[20px]  backdrop-brightness-[0.3] '>
@@ -120,6 +124,8 @@ export default function Home() {
         exit={{ opacity: 0 }}    // アンマウント時
         ></motion.div> */}
       {/* <div className=" z-[-1] relative bg-[url('/top/top002.jpg')] text-center bg-Cover h-[800px] bg-center"></div> */}
+      <Footer />
+
       </motion.div>
     </>
 

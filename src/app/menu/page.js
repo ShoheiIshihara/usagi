@@ -1,6 +1,7 @@
 'use client';
 import { motion, AnimatePresence  } from 'framer-motion'
-
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default function Menu() {
   return (
@@ -10,6 +11,8 @@ export default function Menu() {
       animate={{ opacity: 1 }} // マウント時
       exit={{ opacity: 0 }}    // アンマウント時
     >
+            <Header />
+
       <div className="font-notosans relative h-full bg-[#182817]">
         <div className='mx-[10px]'>
           <h2 className="pt-[150px] mb-[100px] text-center text-lg">メニュー</h2>
@@ -121,6 +124,8 @@ export default function Menu() {
           </div>
         </div>
       </div>
+      <Footer />
+
       </motion.div>
     </>
 

@@ -2,6 +2,9 @@
 import Image from 'next/image';
 import { motion, AnimatePresence  } from 'framer-motion'
 
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+
 export default function About(){
     return (
         <>
@@ -10,6 +13,7 @@ export default function About(){
              animate={{ opacity: 1 }} // マウント時
              exit={{ opacity: 0 }}    // アンマウント時
             >
+            <Header />
             <div className="font-notosans z-[-1] relative h-full bg-[#182817]">
                 <div className=" px-[20px] ">
                     <h2 className="pt-[150px] mb-[50px] text-center text-lg">代表あいさつ</h2>
@@ -41,6 +45,7 @@ export default function About(){
                     </div>                    
                 </div>
             </div>
+            <Footer />
             </motion.div>
         </>
     )
