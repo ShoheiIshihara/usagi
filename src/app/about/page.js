@@ -12,24 +12,27 @@ export default function About(){
              initial={{ opacity: 0 }} // 初期状態
              animate={{ opacity: 1 }} // マウント時
              exit={{ opacity: 0 }}    // アンマウント時
+            
             >
             <Header />
-            <div className="font-notosans z-[-1] relative h-full bg-[#182817]">
-                <div className=" px-[20px] ">
-                    <h2 className="pt-[150px] mb-[50px] text-center text-lg">代表あいさつ</h2>
-                    <Image 
-                        src='/about/0002.jpg'
-                        width={300} 
-                        height={300} 
-                        alt='about_image'
-                        className='mx-auto'
-                    />
+            <div className="font-notosans z-0 relative  bg-[#182817] ">
+                <div className=" px-[20px] md:w-4/5 md:mx-auto">
+                    <h2 className="pt-[150px] mb-[50px] text-center text-lg md:text-2xl md:text-left">代表あいさつ</h2>
+                    <div className='md:flex justify-evenly flex-row-reverse md:mt-[150px]'>
+                        <Image 
+                            src='/about/0002.jpg'
+                            width={350} 
+                            height={200} 
+                            alt='about_image'
+                            className='mx-auto md:mx-0'
+                        />
 
-                    <h2 className='my-[80px] text-2xl text-center leading-9 tracking-wider whitespace-normal'>
-                        ゴルフから繋がりが<br/>
-                        生まれる空間を
-                    </h2>
-                    <div className='tracking-wider whitespace-normal font-light leading-9 tracking-wider whitespace-normal indent-4'>
+                        <h2 className='my-[80px] text-2xl text-center leading-9 tracking-wider whitespace-normal md:text-left'>
+                            ゴルフから繋がりが<br/>
+                            生まれる空間を
+                        </h2>
+                    </div>
+                    <div className='tracking-wider whitespace-normal font-light leading-9 tracking-wider whitespace-normal indent-4 md:mt-[150px]'>
                         <p className='mb-6'>
                             私はゴルフが大好きで、「周りのゴルフ好きな人達を繋げたい」という想いを実現させるため、
                             「ゴルフスナックうさぎ」をオープンしました。ゴルフ好きな方々だけでなく、

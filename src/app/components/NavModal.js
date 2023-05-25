@@ -49,8 +49,10 @@ export default function NavModal(props){
                         </div>
 
                         <div className='border m-[50px] text-center'>
-                            <p className='pt-[20px] text-[#F2C224]'>ご予約・お問い合わせ</p>
-                            <p className='pb-[20px] leading-9 tracking-widest'>Tel:<span className='text-xl tracking-[0.2em]'>080-7509-8080</span></p>
+                            <a href={`tel:+818075098080`}>
+                                <p className='pt-[20px] text-[#F2C224]'>ご予約・お問い合わせ</p>
+                                <p className='pb-[20px] leading-9 tracking-widest'>Tel:<span className='text-xl tracking-[0.2em]'>080-7509-8080</span></p>
+                            </a>
                         </div>
 
                         <div className='flex justify-center w-full'>

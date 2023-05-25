@@ -18,14 +18,14 @@ export default function Access() {
             <Header />
 
       <div className="font-notosans  relative h-full bg-[#182817] ">
-        <div>
-          <h2 className="pt-[150px] mb-[80px] text-center text-lg">店舗情報</h2>
+        <div className='md:w-4/5 md:mx-auto'>
+          <h2 className="pt-[150px] mb-[80px] text-center text-lg md:text-2xl md:text-left">店舗情報</h2>
           <div className='mx-[30px] pb-[50px]'>
             <div className='mx-[30px] '>
               <table className='mx-auto w-full my-[30px]'>
                 <thead>
                 </thead>
-                <tbody className='text-left text-sm'>
+                <tbody className='text-left text-sm md:text-base'>
                   <tr className='border-b border-gray-700'>
                     <th className='p-[16px] font-normal'>店名</th>
                     <td className='py-[16px] '>ゴルフサロンうさぎ</td>

@@ -58,8 +58,10 @@ export default function NewsModal(props){
                         </div>
 
                         <div className='border w-5/6 my-[20px] text-center mx-auto'>
-                            <p className='pt-[20px] text-[#F2C224]'>ご予約・お問い合わせ</p>
-                            <p className='pb-[20px]  leading-9 tracking-widest'>Tel:<span className='text-xl tracking-[0.2em]'>090-0000-1111</span></p>
+                            <a href={`tel:+818075098080`}>
+                                <p className='pt-[20px] text-[#F2C224]'>ご予約・お問い合わせ</p>
+                                <p className='pb-[20px] leading-9 tracking-widest'>Tel:<span className='text-xl tracking-[0.1em]'>080-7509-8080</span></p>
+                            </a>
                         </div>
                   
                     </div>

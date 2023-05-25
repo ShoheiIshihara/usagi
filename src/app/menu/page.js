@@ -14,12 +14,12 @@ export default function Menu() {
             <Header />
 
       <div className="font-notosans relative h-full bg-[#182817]">
-        <div className='mx-[10px]'>
-          <h2 className="pt-[150px] mb-[100px] text-center text-lg">メニュー</h2>
+        <div className='mx-[10px] md:w-4/5 md:mx-auto'>
+          <h2 className="pt-[150px] mb-[100px] text-center text-lg md:text-2xl md:text-left">メニュー</h2>
           <div className='mx-auto '>
-            <div className='mx-auto my-[20px] py-[50px] drop-shadow-lg'>
-              <h3 className='text-center text-xl font-notosefif font-light '>飲み放題</h3>
-              <table className='mx-auto'>
+            <div className='mx-auto mb-[20px] py-[50px] drop-shadow-lg'>
+              <h3 className='text-center text-xl font-notosefif font-light md:text-2xl'>飲み放題</h3>
+              <table className='mx-auto md:w-2/3 md:text-center md:text-xl md:mt-[50px]'>
                 <thead></thead>
                 <tbody className='font-thin font-notosefif'>
                   <tr >
@@ -43,9 +43,9 @@ export default function Menu() {
                     <td className='pt-[40px] pl-[10px]'>女性 5,500yen</td>
                   </tr>
                   <tr>
-                    <td colSpan={3} className='pt-[40px]'>
+                    <td colSpan={3} className='pt-[40px] md:pt-[70px]'>
                       <div className='text-sm  text-xs border-4 border-double p-3 m-2 '>
-                        <ul className='grid grid-cols-2 gap-1 '>
+                        <ul className='grid grid-cols-2 gap-1 md:text-xl'>
                           <li className='pl-[10px]'>ビール</li>
                           <li>ハイボール</li>
                           <li className='pl-[10px]'>焼酎</li>
@@ -61,10 +61,10 @@ export default function Menu() {
               </table>
             </div>
             <div className='mt-[150px] '>
-              <h3 className='text-xl text-center mb-[20px] font-notosefif'>DRINK MENU</h3>
-              <p className='text-sm text-center font-light mb-[20px] font-notosefif'>Charge　1,100yen</p>
-              <div className='mx-[50px]'>
-                <table className='mx-auto w-full'>
+              <h3 className='text-xl text-center mb-[20px] font-notosefif md:text-2xl'>DRINK MENU</h3>
+              <p className='text-sm text-center font-light mb-[20px] font-notosefif md:text-base'>Charge　1,100yen</p>
+              <div className='mx-[50px] md:text-xl'>
+                <table className='mx-auto w-full md:w-2/3'>
                   <thead></thead>
                   <tbody className='font-light font-notosefif'>
                     <tr className='border-b border-gray-600'>
@@ -107,10 +107,10 @@ export default function Menu() {
                 </table>
               </div>
               <div className='mt-[150px] font-notosefif'>
-                <h3 className='text-xl text-center mb-[30px]  tracking-wider '>FOOD MENU</h3>
-                <p className='text-xl text-center  tracking-widest'>お好きな2品で770yen</p>
-                <div className='mx-auto mt-[40px] border-y w-1/2'>
-                  <ul className='text-center'>
+                <h3 className='text-xl text-center mb-[30px]  tracking-wider md:text-2xl'>FOOD MENU</h3>
+                <p className='text-xl text-center  tracking-widest  md:text-2xl'>お好きな2品で770yen</p>
+                <div className='mx-auto mt-[40px] border-y w-1/2 md:text-xl'>
+                  <ul className='text-center md:py-[30px]'>
                     <li className='mt-[10px]'>ミックスナッツ</li>
                     <li className='mt-[10px]'>柿の種</li>
                     <li className='mt-[10px]'>ビーフジャーキー</li>

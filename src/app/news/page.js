@@ -83,24 +83,24 @@ export default function News() {
       animate={{ opacity: 1 }} // マウント時
       exit={{ opacity: 0 }}    // アンマウント時
     >
-            <Header />
+    <Header />
 
       <div className="font-notosans  relative h-full bg-[#182817] ">
-        <div>
-          <h2 className="pt-[150px] mb-[80px] text-center text-lg">お知らせ</h2>
+        <div className='md:w-4/5 md:mx-auto'>
+          <h2 className="pt-[150px] mb-[80px] text-center text-lg md:text-2xl md:text-left">お知らせ</h2>
           <div className='mx-[30px] pb-[50px]'>
-            <div className=' leading-8 tracking-wider text-sm'>
+            <div className=' leading-8 tracking-wider text-sm md:text-lg'>
               {indicateDic.map((data,i) => 
                 <button type='button' key={i} onClick={ () => content_indcate(data.ID,data.add_date,data.genre,data.title,data.content)} className='block my-[30px]'>
                     <div className='text-start hover:underline underline-offset-1'>
                       {data.add_date}<span className='ml-[10px]'>{data.genre =='event' ? 'イベント情報':'お知らせ'}</span>
-                      <p className='ml-[16px]'>{data.title}</p>
+                      <p className='ml-[16px] md:inline'>{data.title}</p>
                     </div>
                 </button>
                 )}
             </div>
             <button
-              className={`text-center w-full border py-[10px] mt-[80px] tracking-widest hover:text-gray-300  ${indicateDic.length == datas.length ? 'opacity-0':''}`}
+              className={`text-center w-full border py-[10px] mt-[80px] tracking-widest hover:text-gray-300 md:mb-[550px] ${indicateDic.length == datas.length ? 'opacity-0':''}`}
               onClick={() => moreButtonClick()}>MORE</button>
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function News() {
             
                 <NewsModal   setIsNewsOpen={setIsNewsOpen} selectContet={selectContet} />
             : ""}
-            <Footer />
+      <Footer />
 
       </motion.div>
     </>
