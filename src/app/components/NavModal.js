@@ -13,6 +13,7 @@ export default function NavModal(props){
                 exit={{ opacity: 0 }}  
       
             >
+                <div className='overflow-scroll'>
                 <div className='flex justify-end'>
                     <button className='w-[80px] h-[80px] flex justify-center items-center relative' onClick={() => props.setIsNavOpen(false)}>
                         <div className="w-8 h-0.5 bg-gray-300 transform rotate-45 absolute"></div>
@@ -20,11 +21,11 @@ export default function NavModal(props){
                     </button>
                 </div>
                 
-                    <div className=' '>
+                    <div className=''>
                         <div className=' mt-[30px] flex gap-3 justify-center'>
                             <a className='p-[10px]' href='https://www.facebook.com/profile.php?id=100063821100744'>
                                 <Image  
-                                    src='/social_facebook.png'
+                                    src='/social/social_facebook.png'
                                     width={50} 
                                     height={50} 
                                     alt='facebook_logo'
@@ -32,7 +33,7 @@ export default function NavModal(props){
                             </a>
                             <a className='p-[10px]' href='https://www.instagram.com/golf_salon_usagi/?igshid=YmMyMTA2M2Y%3D'>
                                 <Image  
-                                    src='/social_instagram.png'
+                                    src='/social/social_instagram.png'
                                     width={50} 
                                     height={50} 
                                     alt='instagram_logo'
@@ -40,7 +41,7 @@ export default function NavModal(props){
                             </a>
                             <a className='p-[10px]' href='https://lin.ee/RCsMGWU'>
                                 <Image  
-                                    src='/social_line.png'
+                                    src='/social/social_line.png'
                                     width={50} 
                                     height={50} 
                                     alt='line_logo'
@@ -84,6 +85,7 @@ export default function NavModal(props){
                                 </li>
                             </ul>
                         </div>
+                    </div>
                     </div>
             </motion.div>
         </>

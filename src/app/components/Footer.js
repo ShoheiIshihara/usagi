@@ -69,7 +69,7 @@ export default function Footer(){
                     <div className='flex '>
                         <a className='p-[10px]' href='https://www.facebook.com/profile.php?id=100063821100744'>
                             <Image  
-                                src='/social_facebook.png'
+                                src='/social/social_facebook.png'
                                 width={40} 
                                 height={40} 
                                 alt='facebook_logo'
@@ -77,7 +77,7 @@ export default function Footer(){
                         </a>
                         <a className='p-[10px]' href='https://www.instagram.com/golf_salon_usagi/?igshid=YmMyMTA2M2Y%3D'>
                             <Image  
-                                src='/social_instagram.png'
+                                src='/social/social_instagram.png'
                                 width={40} 
                                 height={40} 
                                 alt='instagram_logo'
@@ -85,7 +85,7 @@ export default function Footer(){
                         </a>
                         <a className='p-[10px]' href='https://lin.ee/RCsMGWU'>
                             <Image  
-                                src='/social_line.png'
+                                src='/social/social_line.png'
                                 width={40} 
                                 height={40} 
                                 alt='line_logo'

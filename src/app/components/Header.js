@@ -63,7 +63,7 @@ export default function Header(){
                 </div>
             </div>
         {isNavOpen ? 
-            <div className='fixed h-screen w-screen bg-[#0E160B] z-20'>
+            <div className='fixed h-screen w-screen bg-[#0E160B] z-20 overflow-y-scroll'>
                 <NavModal   setIsNavOpen={setIsNavOpen}/>
             </div> : ""}
         
