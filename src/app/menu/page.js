@@ -17,42 +17,52 @@ export default function Menu() {
         <div className='mx-[10px] md:w-4/5 md:mx-auto'>
           <h2 className="pt-[150px] mb-[100px] text-center text-lg md:text-2xl md:text-left">メニュー</h2>
           <div className='mx-auto '>
-            <div className='mx-auto mb-[20px] py-[50px] drop-shadow-lg'>
+            <div className=' mx-[30px] mb-[20px] py-[50px] drop-shadow-lg'>
               <h3 className='text-center text-xl font-notosefif font-light md:text-2xl'>飲み放題</h3>
               <table className='mx-auto md:w-2/3 md:text-center md:text-xl md:mt-[50px]'>
                 <thead></thead>
-                <tbody className='font-thin font-notosefif'>
-                  <tr >
-                    <td className='pt-[40px] pl-[10px]'>60min</td>
-                    <td className='pt-[40px] pl-[10px]'>男性 3,300yen</td>
-                    <td className='pt-[40px] pl-[10px]'>女性 1,700yen</td>
-                  </tr>
+                <tbody className='font-thin font-notosefif text-center'>
                   <tr>
-                    <td className='pt-[40px] pl-[10px]'>120min</td>
-                    <td className='pt-[40px] pl-[10px]'>男性 5,500yen</td>
-                    <td className='pt-[40px] pl-[10px]'>女性 2,200yen</td>
+                    <td></td>
+                    <td className='py-[40px] pb-[10px] text-center'>男性</td>
+                    <td className='py-[40px] pb-[10px] text-center'>女性</td>
+                  </tr>
+                  <tr className='border-b border-gray-600'>
+                    <td className='py-[20px]  md:py-[40px] '>60min</td>
+                    <td className='py-[20px] md:py-[40px] '>3,300yen</td>
+                    <td className='py-[20px] md:py-[40px]  text-center pl-[6px]'>1,700yen</td>
+                  </tr>
+                  <tr className='border-b border-gray-600'>
+                    <td className='py-[20px]  md:py-[40px] '>120min</td>
+                    <td className='py-[20px] md:py-[40px] '>5,500yen</td>
+                    <td className='py-[20px] md:py-[40px]  text-center pl-[6px]'>2,200yen</td>
+                  </tr>
+                  <tr className='border-b border-gray-600'>
+                    <td className='py-[15px] md:py-[40px]  '>Open
+                      <span className='md:hidden'><br/></span>
+                        ～
+                      <span className='md:hidden'><br/></span>
+                        Last
+                    </td>
+                    <td className='py-[15px] md:py-[40px] '>11,000yen</td>
+                    <td className='py-[15px] md:py-[40px]  text-center pl-[6px]'>5,500yen</td>
                   </tr>
                   <tr className=''>
-                    <td className='pt-[40px]  pl-[10px]'>延長60min</td>
-                    <td className='pt-[40px]  pl-[10px]'>男性 2,800yen</td>
-                    <td className='pt-[40px]  pl-[10px]'>女性 1,100yen</td>
-                  </tr>
-                  <tr>
-                    <td className='pt-[40px] pl-[10px]'>Open～Last</td>
-                    <td className='pt-[40px] pl-[10px]'>男性 11,000yen</td>
-                    <td className='pt-[40px] pl-[10px]'>女性 5,500yen</td>
+                    <td className='py-[15px] md:py-[40px] '>延長<br/>60min</td>
+                    <td className='py-[15px] md:py-[40px]  '>2,800yen</td>
+                    <td className='py-[15px] md:py-[40px]  text-center pl-[6px]'>1,100yen</td>
                   </tr>
                   <tr>
                     <td colSpan={3} className='pt-[40px] md:pt-[70px]'>
-                      <div className='text-sm  text-xs border-4 border-double p-3 m-2 '>
-                        <ul className='grid grid-cols-2 gap-1 md:text-xl'>
-                          <li className='pl-[10px]'>ビール</li>
-                          <li>ハイボール</li>
-                          <li className='pl-[10px]'>焼酎</li>
-                          <li>ウイスキー</li>
-                          <li className='pl-[10px]'>ワイン</li>
-                          <li>サワー（オレンジ / レモン）</li>
-                          <li className='pl-[10px]'>ソフトドリンク</li>
+                      <div className='text-sm  border-4 border-double px-3'>
+                        <ul className='grid grid-cols-2 text-left md:text-xl'>
+                          <li className='py-[6px]'>・ビール</li>
+                          <li className='py-[6px]'>・ハイボール</li>
+                          <li className='py-[6px]'>・焼酎</li>
+                          <li className='py-[6px]'>・ウイスキー</li>
+                          <li className='py-[6px]'>・ワイン</li>
+                          <li className='py-[6px]'>・ソフトドリンク</li>
+                          <li className='col-span-2 py-[6px] text-'>・サワー（オレンジ / レモン）</li>
                         </ul>
                       </div>
                     </td>
