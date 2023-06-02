@@ -19,7 +19,7 @@ export default function Menu() {
           <div className='mx-auto '>
             <div className=' mx-[30px] mb-[20px] py-[50px] drop-shadow-lg'>
               <h3 className='text-center text-xl font-notosefif font-light md:text-2xl'>飲み放題</h3>
-              <table className='mx-auto md:w-2/3 md:text-center md:text-xl md:mt-[50px]'>
+              <table className='mx-auto w-full md:w-2/3 md:text-center md:text-xl md:mt-[50px]'>
                 <thead></thead>
                 <tbody className='font-thin font-notosefif text-center'>
                   <tr>
