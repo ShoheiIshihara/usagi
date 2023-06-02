@@ -42,7 +42,7 @@ export default function News() {
   }, [])
 
   let indicatedDicCount = 3
-  console.log(datas)
+  // console.log(datas)
 
   function makeIndcateDic(){
     let itemsDisplayed = indicatedDicCount + (moreCount * 3)
@@ -55,22 +55,22 @@ export default function News() {
     makeIndcateDic()
   }
   
-  console.log(moreCount);
+  // console.log(moreCount);
   // console.log(datas.slice(0,indicatedDicCount))
 
   // setIndcateDic(datas.slice(0,indicatedDicCount))
 
-  console.log(indicateDic)
+  // console.log(indicateDic)
 
 
   const [ isNewsOpen, setIsNewsOpen ] = useState(false) 
   const [ selectContet, setSelectContent ] = useState({"id":'',"add_date":'',"genre":'', "title":'',"contet":''})
-  console.log(isNewsOpen);
-  console.log(selectContet)
+  // console.log(isNewsOpen);
+  // console.log(selectContet)
 
   function content_indcate( id, add_date, genre, title, content) {
     setIsNewsOpen(true)
-    console.log(id,title)
+    // console.log(id,title)
     setSelectContent({"id":id,"add_date":add_date,"genre":genre, "title":title,"content":content})
 
   }
