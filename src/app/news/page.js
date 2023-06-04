@@ -64,7 +64,7 @@ export default function News() {
 
 
   const [ isNewsOpen, setIsNewsOpen ] = useState(false) 
-  const [ selectContet, setSelectContent ] = useState({"id":'',"add_date":'',"genre":'', "title":'',"contet":''})
+  const [ selectContet, setSelectContent ] = useState({"id":'',"add_date":'',"genre":'', "title":'',"event_date":"","contet":''})
   // console.log(isNewsOpen);
   // console.log(selectContet)
 
@@ -74,7 +74,7 @@ export default function News() {
     setSelectContent({"id":id,"add_date":add_date,"genre":genre, "title":title,"content":content})
 
   }
-  console.log(indicateDic.length, datas.length);
+  // console.log(indicateDic.length, datas.length);
 
   return (
     <>
@@ -95,6 +95,7 @@ export default function News() {
                     <div className='text-start hover:underline underline-offset-1'>
                       {data.add_date}<span className='ml-[10px]'>{data.genre =='event' ? 'イベント情報':'お知らせ'}</span>
                       <p className='ml-[16px] md:inline'>{data.title}</p>
+                      <p className='ml-[16px] md:inline'>{data.event_date}</p>
                     </div>
                 </button>
                 )}

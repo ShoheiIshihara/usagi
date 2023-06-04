@@ -14,7 +14,7 @@ export default function Home() {
   const API_KEY = 'AIzaSyA0dln1d4m0XuvYXveaHm-Gw5emYhrv_js'
   const API_SPREADSHEET_ID = '125T7epCNmxkjrfgTMISKLGzxrMXL3WJV42O-bVPZO-w'
   const API_SHEETNAME = 'news_data'
-  const [datas, setDatas] = useState([{"id":'',"add_date":'',"genre":'', "title":'',"contet":''}]);
+  const [datas, setDatas] = useState([{"id":'',"add_date":'',"genre":'', "title":'',"event_date":'',"contet":''}]);
   const conversionJsonToDic = (props) => {
     const [header, ...rows] = props;
     return rows.map((row) =>

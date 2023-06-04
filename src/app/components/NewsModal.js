@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function NewsModal(props){
 
-    console.log(props)
+    // console.log(props)
     return(
         <>
            <motion.div 
