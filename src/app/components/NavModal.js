@@ -22,7 +22,7 @@ export default function NavModal(props){
                 </div>
                 
                     <div className=''>
-                        <div className=' mt-[30px] flex gap-3 justify-center'>
+                        <div className=' flex gap-3 justify-center'>
                             <a className='p-[10px]' href='https://www.facebook.com/profile.php?id=100063821100744'>
                                 <Image  
                                     src='/social/social_facebook.png'
@@ -46,13 +46,6 @@ export default function NavModal(props){
                                     height={50} 
                                     alt='line_logo'
                                 />
-                            </a>
-                        </div>
-
-                        <div className='border m-[50px] text-center'>
-                            <a href={`tel:+818075098080`}>
-                                <p className='pt-[20px] text-[#F2C224]'>ご予約・お問い合わせ</p>
-                                <p className='pb-[20px] leading-9 tracking-widest'>Tel:<span className='text-xl tracking-[0.2em]'>080-7509-8080</span></p>
                             </a>
                         </div>
 
@@ -84,6 +77,13 @@ export default function NavModal(props){
                                 </Link>
                                 </li>
                             </ul>
+                        </div>
+
+                        <div className='border mx-[50px] mt-[10px] text-center'>
+                            <a href={`tel:+818075098080`}>
+                                <p className='pt-[20px] text-[#F2C224]'>ご予約・お問い合わせ</p>
+                                <p className='pb-[20px] leading-9 tracking-widest'>Tel:<span className='text-xl tracking-[0.2em]'>080-7509-8080</span></p>
+                            </a>
                         </div>
                     </div>
                     </div>
