@@ -73,17 +73,17 @@ export default function Menu() {
             <div className='mt-[150px] '>
               <h3 className='text-xl text-center mb-[20px] font-notosefif md:text-2xl'>DRINK MENU</h3>
               <p className='text-sm text-center font-light mb-[20px] font-notosefif md:text-base'>Charge　1,100yen</p>
-              <div className='mx-[50px] md:text-xl'>
+              <div className='mx-[40px] md:text-xl'>
                 <table className='mx-auto w-full md:w-2/3'>
                   <thead></thead>
                   <tbody className='font-light font-notosefif'>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px] '>ビール</td>
-                      <td className='text-right tracking-wider'>880<span className='text-xs'>yen　</span></td>
+                      <td className='text-right tracking-wider'>990<span className='text-xs'>yen　</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>ウィスキー<p className='text-xs pl-[16px] font-thin'>角 / 白州 / 山崎 各種</p></td>
-                      <td className='text-right tracking-wider'>850<span className='text-xs'>yen～</span></td>
+                      <td className='text-right tracking-wider'>880<span className='text-xs'>yen～</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>サワー<p className='text-xs pl-[16px] font-thin'>レモン / ライム / カルピス 各種</p></td>
@@ -91,19 +91,19 @@ export default function Menu() {
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>焼酎<p className='text-xs pl-[16px] font-thin'>麦 / 芋 / 米 各種</p></td>
-                      <td className='text-right tracking-wider'>700<span className='text-xs'>yen　</span></td>
+                      <td className='text-right tracking-wider'>770<span className='text-xs'>yen　</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>カクテル<p className='text-xs pl-[16px] font-thin'>ジン / ウォッカ / ラム 各種</p></td>
-                      <td className='text-right tracking-wider'>900<span className='text-xs'>yen～</span></td>
+                      <td className='text-right tracking-wider'>990<span className='text-xs'>yen～</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>シャンパン</td>
-                      <td className='text-right tracking-wider'>1,000<span className='text-xs'>yen～</span></td>
+                      <td className='text-right tracking-wider'>1,100<span className='text-xs'>yen</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>ワイン<p className='text-xs pl-[16px] font-thin'>赤 / 白 / ロゼ</p></td>
-                      <td className='text-right tracking-wider'>900<span className='text-xs'>yen～</span></td>
+                      <td className='text-right tracking-wider'>990<span className='text-xs'>yen～</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>ショット</td>
@@ -111,7 +111,7 @@ export default function Menu() {
                     </tr>
                     <tr className=''>
                       <td className='py-[10px]'>ソフトドリンク<p className='text-xs pl-[16px] font-thin'>コーラ/ジンジャエール/ウーロン茶</p></td>
-                      <td className='text-right tracking-wider'>600<span className='text-xs'>yen　</span></td>
+                      <td className='text-right tracking-wider'>660<span className='text-xs'>yen　</span></td>
                     </tr>
                   </tbody>
                 </table>
@@ -130,7 +130,7 @@ export default function Menu() {
                 </div>
               </div>
             </div>
-            <p className='text-center mt-[100px] pb-[50px]'>※当店は税込価格表記です。</p>
+            <p className='text-center mt-[100px] pb-[50px] font-notosefif'>※当店は税込価格表記です。</p>
           </div>
         </div>
       </div>
