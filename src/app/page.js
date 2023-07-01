@@ -63,12 +63,12 @@ export default function Home() {
         <div className=" z-0 relative bg-[url('/top/top001.jpg')] text-center bg-Cover h-[800px] bg-center">
           <div className='pt-[250px] absolute top-0 text-center leading-9 tracking-wider w-full h-full whitespace-normal px-[20px]  backdrop-brightness-[0.3]  '>
             <div className="mx-auto md:w-3/4 md:pt-[100px]">
-              <p>福岡市の西中洲にあるゴルフサロン。</p>
+              <p>福岡市西中洲にあるゴルフサロン。</p>
               <p>ゴルフ好きな方々の社交場である</p>
               <p>「ゴルフサロンうさぎ」</p>
               <p>
                 ジャパニーズウイスキーなど様々なお酒をご用意しており、
-                一人飲みや複数飲みとしてもご利用いただけます。
+                落ち着いた店内でおひとりからでもお気軽にご利用いただけます。
               </p>
               <div className="mt-[60px] text-sm">
                 <p className="border mx-[80px] py-[5px] md:w-[200px] md:mx-auto">新着のお知らせ</p>
@@ -82,19 +82,49 @@ export default function Home() {
         </div>
       
         <div className='py-[100px] px-[10px] md:w-4/5 md:mx-auto'>
-          <div className="md:grid grid-cols-2 ">
+          <div className=" grid-cols-2 ">
             <h2 className='my-[80px] text-2xl text-center leading-9 tracking-wider whitespace-normal md:text-left'>
               ゴルフから<br/>
               新たな価値が生まれる空間
             </h2>
             <p className='tracking-wider whitespace-normal font-light leading-9 tracking-wider whitespace-normal px-[15px] md:px-0'>
               「ゴルフサロンうさぎ」ではお客様とのゴルフ談義を楽しむための空間づくりにこだわっています。
-              <br/>
-              <br/>
-                店内のグリーンでパターを行える他、店内モニターではプロゴルファーの試合やコンペの映像を鑑賞する事ができ、ゴルフ以外でも店内で盛り上がる事ができるよう、カラオケや各種ミニゲームもご用意しております。
+            </p>
+
+            <div className="flex overflow-x-scroll gap-4 pt-[30px] md:mx-auto md:pt-[80px] hidden-scrollbar">
+              <Image  
+                    src='/top/inner002.jpg'
+                    width={400} 
+                    height={50} 
+                    alt='inner002.jpg'
+                />
+              <Image  
+                  src='/top/inner005.jpg'
+                  width={400} 
+                  height={50} 
+                  alt='inner005.jpg'
+              />
+              <Image  
+                  src='/top/inner006.jpg'
+
+                  width={200} 
+                  height={50} 
+                  alt='inner006.jpg'
+              />
+          </div>
+              
+            <p  className='mt-[80px] tracking-wider whitespace-normal font-light leading-9 tracking-wider whitespace-normal px-[15px] md:px-0'>
+                ゴルフ以外でも店内で盛り上がる事ができるよう、<br className="hidden md:block"/>カラオケや各種ミニゲームもご用意しておりますので、
+                ゴルフ未経験の方でも気兼ねなくご来店いただけます。
             </p>
           </div>
-          <div className="flex overflow-x-scroll gap-4 pt-[30px] md:mx-auto md:pt-[80px]">
+          <div className="flex overflow-x-scroll gap-4 pt-[30px] md:mx-auto md:pt-[80px] hidden-scrollbar">
+            <Image  
+                  src='/top/inner004.jpg'
+                  width={200} 
+                  height={50} 
+                  alt='inner004.jpg'
+              />
             <Image  
                 src='/top/inner001.jpg'
                 width={200} 
@@ -104,16 +134,11 @@ export default function Home() {
             <Image  
                 src='/top/inner003.jpg'
 
-                width={200} 
-                height={50} 
-                alt='inner003.jpg'
-            />
-            <Image  
-                src='/top/inner002.jpg'
                 width={400} 
                 height={50} 
                 alt='inner003.jpg'
             />
+            
           </div>
         </div>
       </div>
