@@ -84,14 +84,53 @@ export default function Home() {
         <div className='py-[100px] px-[10px] md:w-4/5 md:mx-auto'>
           <div className=" grid-cols-2 ">
             <h2 className='my-[80px] text-2xl text-center leading-9 tracking-wider whitespace-normal md:text-left'>
-              ゴルフから<br/>
-              新たな価値が生まれる空間
+              当店の楽しみ方
             </h2>
-            <p className='tracking-wider whitespace-normal font-light leading-9 tracking-wider whitespace-normal px-[15px] md:px-0'>
-              「ゴルフサロンうさぎ」ではお客様とのゴルフ談義を楽しむための空間づくりにこだわっています。
-            </p>
+            <div className="xl:flex gap-[25px]">
+              <div>
+                <p  className='mt-[80px] tracking-wider whitespace-normal font-light text-center leading-9 tracking-wider whitespace-normal px-[15px] md:px-0'>
+                    ～ 1人でふらっと、お酒を楽しむ ～
+                </p>
+                <Image  
+                        src='/top/fun001.jpg'
+                        width={400} 
+                        height={50} 
+                        alt='fun001.jpg'
+                        className="mx-auto"
+                        
+                        />
+              </div>
+              <div>
+                <p  className='mt-[80px] tracking-wider whitespace-normal font-light text-center leading-9 tracking-wider whitespace-normal px-[15px] md:px-0'>
+                ～ 気の合う仲間と大切な時間を楽しむ ～
+                </p>
+                <Image  
+                        src='/top/fun003.jpg'
+                        width={400} 
+                        height={50} 
+                        alt='fun003.jpg'
+                        className="mx-auto"
+                        
+                        />
+              </div>
+              <div>
+                <p  className='mt-[80px] tracking-wider whitespace-normal font-light text-center leading-9 tracking-wider whitespace-normal px-[15px] md:px-0'>
+                    ～ 出会いを、楽しむ ～
+                </p>
+                <Image  
+                        src='/top/fun004.jpg'
+                        width={400} 
+                        height={50} 
+                        alt='fun004.jpg'
+                        className="mx-auto"
+                        />
+              </div>
+            </div>
 
-            <div className="flex overflow-x-scroll gap-4 pt-[30px] md:mx-auto md:pt-[80px] hidden-scrollbar">
+            <p className='mt-[80px] tracking-wider whitespace-normal font-light leading-9 tracking-wider whitespace-normal px-[15px] md:px-0'>
+              「ゴルフサロンうさぎ」ではお客様の大切な時間を過ごすために空間づくりにこだわっています。
+            </p>
+            <div className=" mx-auto flex overflow-x-scroll gap-4 pt-[30px] md:mx-auto md:pt-[80px] hidden-scrollbar">
               <Image  
                     src='/top/inner002.jpg'
                     width={400} 
