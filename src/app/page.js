@@ -61,8 +61,8 @@ export default function Home() {
 
       <div className='font-notosans  bg-[#182817]'>
         <div className=" z-0 relative bg-[url('/top/top001.jpg')] text-center bg-Cover h-[800px] bg-center">
-          <div className='pt-[250px] absolute top-0 text-center leading-9 tracking-wider w-full h-full whitespace-normal px-[20px]  backdrop-brightness-[0.3]  '>
-            <div className="mx-auto md:w-3/4 md:pt-[100px]">
+          <div className='pt-[250px] absolute top-0 text-center leading-9 tracking-wider w-full h-full whitespace-normal px-[20px]  backdrop-brightness-[0.4]  '>
+            <div className="mx-auto md:w-3/4 md:pt-[100px] text-shadow-md">
               <p>福岡市西中洲にあるゴルフサロン。</p>
               <p>ゴルフ好きな方々の社交場である</p>
               <p>「ゴルフサロンうさぎ」</p>
@@ -95,7 +95,7 @@ export default function Home() {
                         src='/top/fun001.jpg'
                         width={400} 
                         height={50} 
-                        alt='fun001.jpg'
+                        alt='一人で楽しむ.jpg'
                         className="mx-auto"
                         
                         />
@@ -105,10 +105,10 @@ export default function Home() {
                 ～ 気の合う仲間と大切な時間を楽しむ ～
                 </p>
                 <Image  
-                        src='/top/fun003.jpg'
+                        src='/top/top_fun002.jpg'
                         width={400} 
                         height={50} 
-                        alt='fun003.jpg'
+                        alt='気の合う仲間.jpg'
                         className="mx-auto"
                         
                         />
@@ -118,10 +118,10 @@ export default function Home() {
                     ～ 出会いを、楽しむ ～
                 </p>
                 <Image  
-                        src='/top/fun004.jpg'
+                        src='/top/top_fun003.jpg'
                         width={400} 
                         height={50} 
-                        alt='fun004.jpg'
+                        alt='出会いを楽しむ.jpg'
                         className="mx-auto"
                         />
               </div>
@@ -131,24 +131,31 @@ export default function Home() {
               「ゴルフサロンうさぎ」ではお客様の大切な時間を過ごすために空間づくりにこだわっています。
             </p>
             <div className=" mx-auto flex overflow-x-scroll gap-4 pt-[30px] md:mx-auto md:pt-[80px] hidden-scrollbar">
-              <Image  
-                    src='/top/inner002.jpg'
-                    width={400} 
-                    height={50} 
-                    alt='inner002.jpg'
-                />
+              <Image    
+                  src='/top/top_fun005.jpg'
+                  width={350} 
+                  height={50} 
+                  alt='店内雰囲気001.jpg'
+              />
               <Image  
                   src='/top/inner005.jpg'
-                  width={400} 
+                  width={350} 
                   height={50} 
-                  alt='inner005.jpg'
+                  alt='店内雰囲気002.jpg'
               />
+              <Image  
+                    src='/top/inner002.jpg'
+                    width={350} 
+                    height={50} 
+                    alt='店内雰囲気003.jpg'
+                />
+               
               <Image  
                   src='/top/inner006.jpg'
 
-                  width={200} 
+                  width={180} 
                   height={50} 
-                  alt='inner006.jpg'
+                  alt='店内雰囲気004.jpg'
               />
           </div>
               
@@ -159,33 +166,37 @@ export default function Home() {
           </div>
           <div className="flex overflow-x-scroll gap-4 pt-[30px] md:mx-auto md:pt-[80px] hidden-scrollbar">
             <Image  
-                  src='/top/inner004.jpg'
-                  width={200} 
-                  height={50} 
-                  alt='inner004.jpg'
-              />
+                src='/top/top_golf001.jpg'
+                width={180} 
+                height={50} 
+                alt='店内備付001.jpg'
+            />
             <Image  
                 src='/top/inner001.jpg'
-                width={200} 
+                width={180} 
                 height={50} 
-                alt='inner001.jpg'
+                alt='店内備付002.jpg'
             />
+            <Image  
+                  src='/top/inner004.jpg'
+                  width={180} 
+                  height={50} 
+                  alt='店内備付003.jpg'
+              />
             <Image  
                 src='/top/inner003.jpg'
 
                 width={400} 
                 height={50} 
-                alt='inner003.jpg'
+                alt='店内備付004.jpg'
             />
             
           </div>
         </div>
       </div>
       <Footer />
-
       </motion.div>
     </>
-
 
   )
 }

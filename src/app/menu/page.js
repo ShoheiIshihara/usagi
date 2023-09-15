@@ -14,7 +14,7 @@ export default function Menu() {
             <Header />
 
       <div className="font-notosans relative h-full bg-[#182817]">
-        <div className='mx-[10px] md:w-4/5 md:mx-auto'>
+        <div className='mx-[0px] md:w-4/5 md:mx-auto'>
           <h2 className="pt-[150px] mb-[100px] text-center text-lg md:text-2xl md:text-left">メニュー</h2>
           <div className='mx-auto '>
             <div className=' mx-[30px] mb-[20px] py-[50px] drop-shadow-lg'>
@@ -29,15 +29,15 @@ export default function Menu() {
                   </tr>
                   <tr className='border-b border-gray-600'>
                     <td className='py-[20px]  md:py-[40px] '>60min</td>
-                    <td className='py-[20px] md:py-[40px] '>3,300yen</td>
-                    <td className='py-[20px] md:py-[40px]  text-center pl-[6px]'>1,700yen</td>
-                  </tr>
-                  <tr className='border-b border-gray-600'>
-                    <td className='py-[20px]  md:py-[40px] '>120min</td>
-                    <td className='py-[20px] md:py-[40px] '>5,500yen</td>
+                    <td className='py-[20px] md:py-[40px] '>3,800yen</td>
                     <td className='py-[20px] md:py-[40px]  text-center pl-[6px]'>2,200yen</td>
                   </tr>
                   <tr className='border-b border-gray-600'>
+                    <td className='py-[20px]  md:py-[40px] '>120min</td>
+                    <td className='py-[20px] md:py-[40px] '>5,800yen</td>
+                    <td className='py-[20px] md:py-[40px]  text-center pl-[6px]'>3,500yen</td>
+                  </tr>
+                  {/* <tr className='border-b border-gray-600'>
                     <td className='py-[15px] md:py-[40px]  '>Open
                       <span className='md:hidden'><br/></span>
                         ～
@@ -46,11 +46,11 @@ export default function Menu() {
                     </td>
                     <td className='py-[15px] md:py-[40px] '>11,000yen</td>
                     <td className='py-[15px] md:py-[40px]  text-center pl-[6px]'>5,500yen</td>
-                  </tr>
+                  </tr> */}
                   <tr className=''>
                     <td className='py-[15px] md:py-[40px] '>延長<br/>60min</td>
-                    <td className='py-[15px] md:py-[40px]  '>2,800yen</td>
-                    <td className='py-[15px] md:py-[40px]  text-center pl-[6px]'>1,100yen</td>
+                    <td className='py-[15px] md:py-[40px]  '>3,300yen</td>
+                    <td className='py-[15px] md:py-[40px]  text-center pl-[6px]'>2,000yen</td>
                   </tr>
                   <tr>
                     <td colSpan={3} className='pt-[40px] md:pt-[70px]'>
@@ -61,8 +61,8 @@ export default function Menu() {
                           <li className='py-[6px]'>・焼酎</li>
                           <li className='py-[6px]'>・ウイスキー</li>
                           <li className='py-[6px]'>・ワイン</li>
-                          <li className='py-[6px]'>・ソフトドリンク</li>
-                          <li className='col-span-2 py-[6px] text-'>・サワー（オレンジ / レモン）</li>
+                          <li className='py-[6px]'>・レモンサワー</li>
+                          <li className='col-span-2 py-[6px] text-'>・ソフトドリンク</li>
                         </ul>
                       </div>
                     </td>
@@ -79,39 +79,39 @@ export default function Menu() {
                   <tbody className='font-light font-notosefif'>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px] '>ビール</td>
-                      <td className='text-right tracking-wider'>990<span className='text-xs'>yen　</span></td>
+                      <td className='text-right tracking-wider'>1,100<span className='text-xs'>yen　</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>ウィスキー<p className='text-xs pl-[16px] font-thin'>角 / 白州 / 山崎 各種</p></td>
-                      <td className='text-right tracking-wider'>880<span className='text-xs'>yen～</span></td>
+                      <td className='text-right tracking-wider'>1,100<span className='text-xs'>yen～</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
-                      <td className='py-[10px]'>サワー<p className='text-xs pl-[16px] font-thin'>レモン / ライム / カルピス 各種</p></td>
-                      <td className='text-right tracking-wider'>880<span className='text-xs'>yen～</span></td>
+                      <td className='py-[10px]'>サワー<p className='text-xs pl-[16px] font-thin'>レモン / ライム  各種</p></td>
+                      <td className='text-right tracking-wider'>990<span className='text-xs'>yen～</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>焼酎<p className='text-xs pl-[16px] font-thin'>麦 / 芋 / 米 各種</p></td>
-                      <td className='text-right tracking-wider'>770<span className='text-xs'>yen　</span></td>
+                      <td className='text-right tracking-wider'>880<span className='text-xs'>yen　</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>カクテル<p className='text-xs pl-[16px] font-thin'>ジン / ウォッカ / ラム 各種</p></td>
-                      <td className='text-right tracking-wider'>990<span className='text-xs'>yen～</span></td>
+                      <td className='text-right tracking-wider'>1,100<span className='text-xs'>yen～</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>シャンパン</td>
-                      <td className='text-right tracking-wider'>1,100<span className='text-xs'>yen</span></td>
+                      <td className='text-right tracking-wider'>1,300<span className='text-xs'>yen～</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>ワイン<p className='text-xs pl-[16px] font-thin'>赤 / 白 / ロゼ</p></td>
-                      <td className='text-right tracking-wider'>990<span className='text-xs'>yen～</span></td>
+                      <td className='text-right tracking-wider'>1,200<span className='text-xs'>yen～</span></td>
                     </tr>
                     <tr className='border-b border-gray-600'>
                       <td className='py-[10px]'>ショット</td>
-                      <td className='text-right tracking-wider'>550<span className='text-xs'>yen　</span></td>
+                      <td className='text-right tracking-wider'>880<span className='text-xs'>yen　</span></td>
                     </tr>
                     <tr className=''>
                       <td className='py-[10px]'>ソフトドリンク<p className='text-xs pl-[16px] font-thin'>コーラ/ジンジャエール/ウーロン茶</p></td>
-                      <td className='text-right tracking-wider'>660<span className='text-xs'>yen　</span></td>
+                      <td className='text-right tracking-wider'>880<span className='text-xs'>yen　</span></td>
                     </tr>
                   </tbody>
                 </table>
