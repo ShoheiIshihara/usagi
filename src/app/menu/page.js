@@ -13,7 +13,7 @@ export default function Menu() {
     >
             <Header />
 
-      <div className="font-notosans relative h-full bg-[#182817]">
+      <div className="font-notosans relative h-full bg-[#182817">
         <div className='mx-[0px] md:w-4/5 md:mx-auto'>
           <h2 className="pt-[150px] mb-[100px] text-center text-lg md:text-2xl md:text-left">メニュー</h2>
           <div className='mx-auto '>

@@ -15,7 +15,7 @@ export default function About(){
             
             >
             <Header />
-            <div className="font-notosans z-0 relative  bg-[#182817] ">
+            <div className="font-notosans z-0 relative  bg-[#182817 ">
                 <div className=" px-[20px] md:w-4/5 md:mx-auto">
                     <h2 className="pt-[150px] mb-[50px] text-center text-lg md:text-2xl md:text-left">代表あいさつ</h2>
                     <div className='md:flex justify-evenly flex-row-reverse md:mt-[150px]'>

@@ -7,6 +7,7 @@
 
 :root {
   background-color: #182817;
+  background: repeating-linear-gradient(-45deg, #182817 0, #182817 20px, #093c06 200px, #182817 400px);
 }
 
 @media (prefers-color-scheme: dark) {

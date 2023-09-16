@@ -85,7 +85,7 @@ export default function News() {
     >
     <Header />
 
-      <div className="font-notosans  relative h-full bg-[#182817] ">
+      <div className="font-notosans  relative h-full bg-[#182817 ">
         <div className='md:w-4/5 md:mx-auto'>
           <h2 className="pt-[150px] mb-[80px] text-center text-lg md:text-2xl md:text-left">お知らせ</h2>
           <div className='mx-[30px] pb-[50px]'>

@@ -38,7 +38,8 @@ module.exports = {
                 },
                 ".text-shadow-none": {
                   textShadow: "none"
-                }
+                },
+    
               };
 
               addUtilities(newUtilities);
