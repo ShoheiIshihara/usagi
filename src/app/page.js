@@ -59,7 +59,7 @@ export default function Home() {
       >
       <Header />
 
-      <div className='font-notosans  bg-[#182817 '>
+      <div className='font-notosefif  bg-[#182817 '>
         <div className=" z-0 relative bg-[url('/top/top001.jpg')] text-center bg-Cover h-[800px] bg-center">
           <div className='pt-[250px] absolute top-0 text-center leading-9 tracking-wider w-full h-full whitespace-normal px-[20px]  backdrop-brightness-[0.4]  '>
             <div className="mx-auto md:w-3/4 md:pt-[100px] text-shadow-md">
