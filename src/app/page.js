@@ -191,11 +191,10 @@ export default function Home() {
                 alt='店内備付004.jpg'
             />
             <Image  
-                src='/top/fun005.jpg'
-
+                src='/top/fun005r1.jpg'
                 width={400} 
                 height={50} 
-                alt='店内備付004.jpg'
+                alt='店内備付005.jpg'
             />
           </div>
         </div>
