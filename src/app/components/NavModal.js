@@ -13,7 +13,7 @@ export default function NavModal(props){
                 exit={{ opacity: 0 }}  
       
             >
-                <div className='overflow-scroll'>
+                <div className='overflow-scroll font-notosefif'>
                 <div className='flex justify-end'>
                     <button className='w-[80px] h-[80px] flex justify-center items-center relative' onClick={() => props.setIsNavOpen(false)}>
                         <div className="w-8 h-0.5 bg-gray-300 transform rotate-45 absolute"></div>

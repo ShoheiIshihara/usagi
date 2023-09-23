@@ -130,7 +130,7 @@ export default function Home() {
             <p className='mt-[80px] tracking-wider whitespace-normal font-light leading-9 tracking-wider whitespace-normal px-[15px] md:px-0'>
               「ゴルフサロンうさぎ」ではお客様の大切な時間を過ごすために空間づくりにこだわっています。
             </p>
-            <div className=" mx-auto flex overflow-x-scroll gap-4 pt-[30px] md:mx-auto md:pt-[80px] hidden-scrollbar">
+            <div className=" mx-auto flex overflow-x-scroll gap-4 pt-[80px] md:mx-auto md:pt-[80px] hidden-scrollbar">
               <Image    
                   src='/top/top_fun005.jpg'
                   width={350} 
@@ -164,7 +164,7 @@ export default function Home() {
                 ゴルフ未経験の方でも気兼ねなくご来店いただけます。
             </p>
           </div>
-          <div className="flex overflow-x-scroll gap-4 pt-[30px] md:mx-auto md:pt-[80px] hidden-scrollbar">
+          <div className="flex overflow-x-scroll gap-4 pt-[80px] pb-[80px] md:mx-auto md:pt-[80px] hidden-scrollbar">
             <Image  
                 src='/top/top_golf001.jpg'
                 width={180} 

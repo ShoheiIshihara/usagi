@@ -5,7 +5,9 @@ import Link from 'next/link'
 export default function Footer(){
     return(
         <>
-            <div className="w-full text-center py-[30px] bg-[#1b1715] text-sm  md:hidden ">
+            <div className="font-notosefif w-full text-center   text-sm  md:hidden bg-[url('/top/inner005.jpg')] bg-auto bg-center ">
+                <div className='backdrop-brightness-[0.2] py-[30px]'>
+
                 {/* <img className='w-[200px] mx-auto' src='logo.png' /> */}
                 <Image  
                             src='/logo.png'
@@ -94,8 +96,11 @@ export default function Footer(){
                     </div>
                 </div>
             </div>
-
             <div className="text-[#787878] bg-[#1b1715] text-center pb-2">&copy; 2023 株式会社A.F.コンサベーション</div>
+
+            </div>
+
+
 
         </>
     )

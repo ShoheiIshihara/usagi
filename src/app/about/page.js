@@ -20,7 +20,7 @@ export default function About(){
                     <h2 className="pt-[150px] mb-[50px] text-center text-lg md:text-2xl md:text-left">代表あいさつ</h2>
                     <div className='md:flex justify-evenly flex-row-reverse md:mt-[150px]'>
                         <Image 
-                            src='/about/0002.jpg'
+                            src='/about/owner001.jpg'
                             width={350} 
                             height={200} 
                             alt='about_image'
