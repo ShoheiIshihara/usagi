@@ -61,7 +61,7 @@ export default function Home() {
 
       <div className='font-notosefif  bg-[#182817 '>
         <div className=" z-0 relative bg-[url('/top/top001r01.jpg')] text-center bg-Cover h-[800px] bg-center">
-          <div className='pt-[250px] absolute top-0 text-center leading-9 tracking-wider w-full h-full whitespace-normal px-[20px]  backdrop-brightness-[0.4]  '>
+          <div className='pt-[200px] absolute top-0 text-center leading-9 tracking-wider w-full h-full whitespace-normal px-[20px]  backdrop-brightness-[0.4]  '>
             <div className="mx-auto md:w-3/4 md:pt-[100px] text-shadow-md">
               <p>福岡市西中洲にあるゴルフサロン。</p>
               <p>ゴルフ好きな方々の社交場である</p>
@@ -144,14 +144,14 @@ export default function Home() {
                   alt='店内雰囲気002.jpg'
               />
               <Image  
-                    src='/top/inner002.jpg'
+                    src='/top/inner002r1.jpg'
                     width={350} 
                     height={50} 
                     alt='店内雰囲気003.jpg'
                 />
                
               <Image  
-                  src='/top/inner006.jpg'
+                  src='/top/inner006r1.jpg'
 
                   width={180} 
                   height={50} 
@@ -190,7 +190,13 @@ export default function Home() {
                 height={50} 
                 alt='店内備付004.jpg'
             />
-            
+            <Image  
+                src='/top/fun005.jpg'
+
+                width={400} 
+                height={50} 
+                alt='店内備付004.jpg'
+            />
           </div>
         </div>
       </div>
