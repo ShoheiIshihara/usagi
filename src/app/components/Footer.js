@@ -79,7 +79,7 @@ export default function Footer(){
                         </a>
                         <a className='p-[10px]' href='https://www.instagram.com/golf_salon_usagi/?igshid=YmMyMTA2M2Y%3D'>
                             <Image  
-                                src='/social/social_insta.png'
+                                src='/social/social_Insta.png'
                                 width={40} 
                                 height={40} 
                                 alt='instagram_logo'

@@ -33,7 +33,7 @@ export default function NavModal(props){
                             </a>
                             <a className='p-[10px]' href='https://www.instagram.com/golf_salon_usagi/?igshid=YmMyMTA2M2Y%3D'>
                                 <Image  
-                                    src='/social/social_insta.png'
+                                    src='/social/social_Insta.png'
                                     width={50} 
                                     height={50} 
                                     alt='instagram_logo'
