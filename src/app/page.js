@@ -159,7 +159,7 @@ export default function Home() {
               />
           </div>
               
-            <p  className='mt-[80px] tracking-wider whitespace-normal font-light leading-9 tracking-wider whitespace-normal px-[15px] md:px-0'>
+            <p  className='mt-[80px] whitespace-normal font-light leading-9 tracking-wider whitespace-normal px-[15px] md:px-0'>
                 ゴルフ以外でも店内で盛り上がる事ができるよう、<br className="hidden md:block"/>カラオケや各種ミニゲームもご用意しておりますので、
                 ゴルフ未経験の方でも気兼ねなくご来店いただけます。
             </p>
@@ -197,6 +197,35 @@ export default function Home() {
                 alt='店内備付005.jpg'
             />
           </div>
+          <div className=' tracking-wider md:hidden'>
+            <p className="text-center mb-[20px]">各種SNSはこちら</p>
+            <div className="flex gap-3 justify-center">
+              <a className='p-[10px]' href='https://www.facebook.com/profile.php?id=100063821100744'>
+                  <Image  
+                      src='/social/social_facebook.png'
+                      width={50} 
+                      height={50} 
+                      alt='facebook_logo'
+                  />
+              </a>
+              <a className='p-[10px]' href='https://www.instagram.com/golf_salon_usagi/?igshid=YmMyMTA2M2Y%3D'>
+                  <Image  
+                      src='/social/social_Insta.png'
+                      width={50} 
+                      height={50} 
+                      alt='instagram_logo'
+                  />
+              </a>
+              <a className='p-[10px]' href='https://lin.ee/RCsMGWU'>
+                  <Image  
+                      src='/social/social_line.png'
+                      width={50} 
+                      height={50} 
+                      alt='line_logo'
+                  />
+              </a>
+            </div>
+        </div>
         </div>
       </div>
       <Footer />
